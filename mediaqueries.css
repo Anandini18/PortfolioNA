@@ -1,0 +1,213 @@
+@media screen and (max-width: 630px){
+    .FPMainSectionText h1{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    
+.EduExpDiv div{
+    padding: 1.9em;
+}
+
+.description{
+    font-size: larger;
+    margin-top: 0.7em;
+}
+
+
+    .mobile-navbar-btn{
+        width: 5em;
+        display: block;
+        z-index: 999;
+    }
+
+    .nav-content{
+
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--pink);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2em;
+        padding-top: 4em ;
+
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+    }
+
+    .active .nav-content{
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .active .nav-content>p>a:hover{
+        color: var(--white);
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+        display: none;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+        display: block;
+    }
+
+    .FirstPage{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav{
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    
+    .FirstPageMainSection{
+        display: flex;
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+    }
+    
+    .FirstPageMainSection img{
+        width: 40%;
+        height: 100%;
+    }
+    
+    .FPMainSectionText{
+        height: 50vh;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .FPMainSectionText > h1{
+        font-size: 3.5rem;
+    }
+    
+    .CVContact{
+        width: 90%;
+        justify-content: space-between;
+    }
+    
+    .CVContact button{
+        height: 90%; 
+        width: 47%;
+    }
+    
+    .SocialLinks{
+        width: 30%;
+        justify-content: space-between;
+    }
+
+    .SecondPage{
+        height: 200vh;
+    }
+
+    .SecondPageMainSection{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .SPMainSectionText{
+        height: 60%;
+    }
+    
+    .EduExpDiv{
+        margin-bottom: 1em;
+    }
+    
+    .TechnologyDiv{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+    }
+    
+    .TechDiv{
+        height: 80%;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    
+    .FourthPage{
+        height: 200vh;
+    }
+    
+    .ProjectSection{
+        margin-top: 4%;
+        width: 100%;
+        height: 90%;
+        flex-direction: column;
+    }
+    
+    .Project{
+        width: 80%;
+        height: 100%;
+        margin-bottom: 4%;
+    }
+    
+    .ProjectImage{
+        height: 70%;
+        width: 100%;
+    }
+    
+    .ProjectBtnDiv{
+        width: 80%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+    }
+    
+    .ProjectBtnDiv button{
+        width: 47%;
+        height: 100%;
+        border-radius: 50px;
+    }
+    
+    .FifthPage{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10% 0% 0% 0%;
+    } 
+    
+    .ContactDiv{
+        width: 90%;
+    }
+    
+    .NavDivItems{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
